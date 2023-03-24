@@ -28,3 +28,9 @@ Isabel Yates
 John King
 Joyce Adams
 ```
+
+Use [namehash.py](https://gist.github.com/superkojiman/11076951) to create  alist of possible usernames based on the names of the people.
+
+```
+
+```
