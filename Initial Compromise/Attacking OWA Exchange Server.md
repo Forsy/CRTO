@@ -14,3 +14,17 @@ Patterns such as MonthYear (August2019), SeasonYear (Summer2019) and DayDate (Tu
 
 > [!tip] 
 >   Be cautious of localisations, e.g. Autumn vs Fall. 
+
+Usernames could be extractet from various sources as seen in the external reconisance, mostly Linkedin or Websites. In this excercise the target has a "Our team" section: 
+
+![[Pasted image 20230324090920.png]]
+
+We can come up with this list:
+
+
+```
+Bob Farmer
+Isabel Yates
+John King
+Joyce Adams
+```

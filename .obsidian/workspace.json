@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Attacking OWA Exchange Server.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attacking OWA Exchange Server.md"
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md"
               }
             }
           },
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attacking OWA Exchange Server.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attacking OWA Exchange Server.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,10 +160,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "98d2de66fc622602",
+  "active": "b88623243fe9ad7b",
   "lastOpenFiles": [
-    "Cobalt Strike.md",
-    "README.md",
-    "Attacking OWA Exchange Server.md"
+    "Cobalt Strike 101.md",
+    "Initial Compromise/Attacking OWA Exchange Server.md",
+    "Initial Compromise",
+    "Pasted image 20230324090920.png",
+    "README.md"
   ]
 }
