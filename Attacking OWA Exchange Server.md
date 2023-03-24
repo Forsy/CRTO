@@ -10,4 +10,7 @@ We discovered the internal OWA Exchnage Server. We are in a assume breach scenar
 ```
 
 ## Password Spraying
+Patterns such as MonthYear (August2019), SeasonYear (Summer2019) and DayDate (Tuesday6) are very common.
 
+> [!tip] 
+>   Be cautious of localisations, e.g. Autumn vs Fall. 

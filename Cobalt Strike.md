@@ -9,12 +9,8 @@ P2P: p2p as the name says lol ex: SMB,TCP
 
 ## SMB
 
-*OPSEC:*
-```
-This default pipe name is quite well signatured.  A good strategy is to emulate names known to be used by common applications or Windows itself.  Use `PS C:\> ls \\.\pipe\` to list all currently listening pipes for inspiration.
-```
-
-
+> [!OPSEC] 
+>  This default pipe name is quite well signatured.  A good strategy is to emulate names known to be used by common applications or Windows itself.  Use `PS C:\> ls \\.\pipe\` to list all currently listening pipes for inspiration.
 
 # Payloads and Listeners
 
