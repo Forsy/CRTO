@@ -87,3 +87,5 @@ PS C:\Users\Attacker> Get-GlobalAddressList -ExchHostname mail.cyberbotic.io -Us
 ```
 
 ## Phishing
+
+Template rekmote injector: https://github.com/JohnWoodman/remoteinjector
