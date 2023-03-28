@@ -37,6 +37,8 @@ beacon> execute-assembly C:\Tools\SharPersist\SharPersist\bin\Release\SharPersis
 > Use svc payload since we are creating a service. 
 
 
-This will create a new service in a STOPPED state, but with the START_TYPE set to AUTO_START.  This means the service won't run until the machine is rebooted.  When the machine starts, so will the service, and it will be waiting for a connection.
+This will create a new service in a STOPPED state, but with the START_TYPE set to AUTO_START. 
+
+This means the service won't run until the machine is rebooted.  When the machine starts, so will the service, and it will be waiting for a connection.
 
 Use connect localhost 4444 to connect to the beacon.
