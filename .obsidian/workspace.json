@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f3b40bd6eaa6b07a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Persistance/Persistance as Privileged.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -145,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host Privesc/UAC Bypass.md"
+                "file": "Persistance/Persistance as Privileged.md"
               }
             }
           },
@@ -155,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host Privesc/UAC Bypass.md",
+                "file": "Persistance/Persistance as Privileged.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host Privesc/UAC Bypass.md",
+                "file": "Persistance/Persistance as Privileged.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,10 +208,13 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "3eaefb2b65262dbf",
+  "active": "f3b40bd6eaa6b07a",
   "lastOpenFiles": [
-    "Host Privesc/Weak Permissions.md",
+    "Untitled.md",
+    "Persistance/Persistance as Privileged.md",
+    "Persistance",
     "Host Privesc/UAC Bypass.md",
+    "Host Privesc/Weak Permissions.md",
     "Host Privesc/Unquoted Service Path.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
     "Host Privesc",
