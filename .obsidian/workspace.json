@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3eaefb2b65262dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Host Privesc/UAC Bypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host Privesc/Weak Permissions.md"
+                "file": "Host Privesc/UAC Bypass.md"
               }
             }
           },
@@ -143,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host Privesc/Weak Permissions.md",
+                "file": "Host Privesc/UAC Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host Privesc/Weak Permissions.md",
+                "file": "Host Privesc/UAC Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,11 +196,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "0ba2e0861c1a383c",
+  "active": "3eaefb2b65262dbf",
   "lastOpenFiles": [
-    "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/Weak Permissions.md",
-    "Untitled.md",
+    "Host Privesc/UAC Bypass.md",
+    "Host Privesc/Unquoted Service Path.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
     "Host Privesc",
     "Cobalt Strike 101.md",

