@@ -1,0 +1,4 @@
+
+```
+run netstat -anp tcp
+```
