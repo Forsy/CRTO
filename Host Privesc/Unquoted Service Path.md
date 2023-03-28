@@ -21,5 +21,3 @@ execute-assembly C:\Tools\SharpUp\SharpUp\bin\Release\SharpUp.exe audit Unquoted
 
 > [!important] 
 > Payloads to abuse services must be specific "service binaries", because they need to interact with the Service Control Manager.  When using the "Generate All Payloads" option, these have svc in the filename. 
-
-3. 
