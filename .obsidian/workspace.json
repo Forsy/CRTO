@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Credential Theft/Credential Theft.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Credential Theft/Credential Theft.md"
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md"
               }
             }
           },
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Credential Theft/Credential Theft.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Credential Theft/Credential Theft.md",
+                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,20 +234,20 @@
   },
   "active": "46ed9c49a2110a75",
   "lastOpenFiles": [
+    "Images/Pasted image 20230324090920.png",
+    "Host Privesc/Weak Permissions.md",
+    "Host Privesc/Unquoted Service Path.md",
+    "Host Privesc/UAC Bypass.md",
     "Credential Theft/Credential Theft.md",
     "Credential Theft",
     "Persistance/Persistance as Privileged.md",
     "Cheatsheet.md",
     "Persistance",
-    "Host Privesc/UAC Bypass.md",
-    "Host Privesc/Weak Permissions.md",
-    "Host Privesc/Unquoted Service Path.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
     "Host Privesc",
     "Cobalt Strike 101.md",
     "Images",
     "Initial Compromise",
-    "Images/Pasted image 20230324090920.png",
     "README.md"
   ]
 }

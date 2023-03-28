@@ -71,3 +71,8 @@ To crack these with [hashcat](https://hashcat.net/hashcat/), we need to transfo
 > [!warning] 
 >  DCC is much much slower to crack than NTLM.
 
+> [!danger] 
+> This module will open a handle to the SECURITY registry hive.  Use the "Suspicious SECURITY Hive Handle" saved search in Kibana to see them.
+
+## Extracting Kerberos Tickets
+
