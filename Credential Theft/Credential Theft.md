@@ -44,12 +44,30 @@ rc4_md4           59fc0f884922b4ce376051134c71e22c
 rc4_hmac_nt_exp   59fc0f884922b4ce376051134c71e22c
 rc4_hmac_old_exp  59fc0f884922b4ce376051134c71e22c2c
 
-
-
-
 > [!warning] 
 > Requires elevated privileges.
 
 > [!danger] 
 > OPSEC: This modules will open a read handle to LSASS which can be logged under event 4656. Use the "Suspicious Handle to LSASS" saved search in Kibana to see them. 
+
+
+## Domain Cached Credentials
+
+The local device caches the domain credentials so authentication can happen locally, but these can be extracted and cracked offline to recover plaintext credentials.
+
+Unfortunately, the hash format is not NTLM so it can't be used with pass the hash.  The only viable use for these is to crack them offline.
+
+Mimikatz module can extract these from `HKLM\SECURITY`.
+
+```
+mimikatz !lsadump::cache
+```
+
+To crack these with [hashcat](https://hashcat.net/hashcat/), we need to transform them into the expected format. The [example hashes page](https://hashcat.net/wiki/doku.php?id=example_hashes) shows us it should be `$DCC2$<iterations>#<username>#<hash>`.
+```
+2100|Domain Cached Credentials 2 (DCC2), MS Cache 2|$DCC2$10240#tom#e4e938d12fe5974dc42a90120bd9c90f
+```
+
+> [!warning] 
+>  DCC is much much slower to crack than NTLM.
 
