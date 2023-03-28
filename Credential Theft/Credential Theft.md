@@ -76,3 +76,5 @@ To crack these with [hashcat](https://hashcat.net/hashcat/), we need to transfo
 
 ## Extracting Kerberos Tickets
 
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/38189179-extracting-kerberos-tickets)
+

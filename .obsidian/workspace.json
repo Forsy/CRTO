@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
+                "file": "Credential Theft/Credential Theft.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Initial Compromise/Attacking OWA Exchange Server.md"
+                "file": "Credential Theft/Credential Theft.md"
               }
             }
           },
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
+                "file": "Credential Theft/Credential Theft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
+                "file": "Credential Theft/Credential Theft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,16 +234,16 @@
   },
   "active": "46ed9c49a2110a75",
   "lastOpenFiles": [
+    "Persistance/Persistance as Privileged.md",
+    "Initial Compromise/Attacking OWA Exchange Server.md",
     "Images/Pasted image 20230324090920.png",
     "Host Privesc/Weak Permissions.md",
     "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/UAC Bypass.md",
     "Credential Theft/Credential Theft.md",
     "Credential Theft",
-    "Persistance/Persistance as Privileged.md",
     "Cheatsheet.md",
     "Persistance",
-    "Initial Compromise/Attacking OWA Exchange Server.md",
     "Host Privesc",
     "Cobalt Strike 101.md",
     "Images",
