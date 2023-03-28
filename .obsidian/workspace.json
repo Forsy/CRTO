@@ -90,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46ed9c49a2110a75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Credential Theft/Credential Theft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -169,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Persistance/Persistance as Privileged.md"
+                "file": "Credential Theft/Credential Theft.md"
               }
             }
           },
@@ -179,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Persistance/Persistance as Privileged.md",
+                "file": "Credential Theft/Credential Theft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Persistance/Persistance as Privileged.md",
+                "file": "Credential Theft/Credential Theft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,10 +232,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "7d2c762973eeacd9",
+  "active": "46ed9c49a2110a75",
   "lastOpenFiles": [
-    "Cheatsheet.md",
+    "Credential Theft/Credential Theft.md",
+    "Credential Theft",
     "Persistance/Persistance as Privileged.md",
+    "Cheatsheet.md",
     "Persistance",
     "Host Privesc/UAC Bypass.md",
     "Host Privesc/Weak Permissions.md",

