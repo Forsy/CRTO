@@ -78,3 +78,6 @@ To crack these with [hashcat](https://hashcat.net/hashcat/), we need to transfo
 
 [Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/38189179-extracting-kerberos-tickets)
 
+## DCSync
+
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/38742955-dcsync)
