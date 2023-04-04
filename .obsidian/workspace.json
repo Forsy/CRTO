@@ -124,9 +124,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "270238962743489a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ntlm relaying Voltereta.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -203,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lateral Movement/Lateral Movement.md"
+                "file": "Ntlm relaying Voltereta.md"
               }
             }
           },
@@ -213,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lateral Movement/Lateral Movement.md",
+                "file": "Ntlm relaying Voltereta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,7 +242,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lateral Movement/Lateral Movement.md",
+                "file": "Ntlm relaying Voltereta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,11 +266,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "93088d26e756b187",
+  "active": "270238962743489a",
   "lastOpenFiles": [
+    "Lateral Movement/Lateral Movement.md",
+    "Ntlm relaying Voltereta.md",
     "Images/Pasted image 20230330114217.png",
     "Persistance/Persistance as Privileged.md",
-    "Lateral Movement/Lateral Movement.md",
     "Lateral Movement",
     "User Impersonation/Pass the Ticket.md",
     "User Impersonation",
