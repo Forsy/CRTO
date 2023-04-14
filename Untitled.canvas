@@ -1,21 +1,22 @@
 {
 	"nodes":[
-		{"type":"group","id":"33af96bd0f0da950","x":-3560,"y":-1360,"width":2360,"height":1760,"label":"Recon"},
+		{"type":"group","id":"33af96bd0f0da950","x":-3560,"y":-1360,"width":920,"height":720,"label":"Recon"},
 		{"type":"group","id":"4e53470b73136330","x":-3560,"y":-1880,"width":491,"height":306,"label":"Color Code"},
-		{"type":"text","text":"Concept","id":"caf3b9aee8c1dcd2","x":-3540,"y":-1854,"width":148,"height":52},
-		{"type":"text","text":"Beacon Command","id":"876c33479f9d697a","x":-3540,"y":-1774,"width":197,"height":67,"color":"4"},
-		{"type":"text","text":"Intel","id":"975c38668d7a262a","x":-3540,"y":-1674,"width":140,"height":50,"color":"3"},
+		{"type":"text","text":"```\nLogged on users at \\\\localhost:\nDEV\\bfarmer\n```","id":"deecce3267a97d52","x":-3108,"y":-1119,"width":272,"height":98,"color":"3"},
 		{"type":"text","text":"ps","id":"88ec07404f5cb5d1","x":-3302,"y":-1268,"width":100,"height":50,"color":"4"},
 		{"type":"text","text":"getprivs","id":"f38f913741350791","x":-3302,"y":-1192,"width":122,"height":53,"color":"4"},
 		{"type":"text","text":"Sysmon64","id":"4a7fddf2a73dd390","x":-3112,"y":-1320,"width":140,"height":50,"color":"3"},
 		{"type":"text","text":"MsMpEng(Defender)","id":"2142d176b29af768","x":-3112,"y":-1268,"width":207,"height":50,"color":"3"},
-		{"type":"text","text":"```\nLogged on users at \\\\localhost:\nDEV\\bfarmer\n```","id":"deecce3267a97d52","x":-3108,"y":-1119,"width":272,"height":98,"color":"3"},
 		{"type":"text","text":"elastic xxx","id":"f399c9f189068360","x":-3112,"y":-1217,"width":136,"height":50,"color":"3"},
 		{"type":"text","text":"Processess","id":"705109fcf12ab029","x":-3520,"y":-1270,"width":158,"height":53},
 		{"type":"text","text":"Privileges","id":"a08eda9d6d6dd86e","x":-3520,"y":-1192,"width":158,"height":53},
-		{"type":"text","text":"User Sessions","id":"09e5173156aaa43f","x":-3520,"y":-1097,"width":158,"height":53},
+		{"type":"text","text":"User Sessions","id":"09e5173156aaa43f","x":-3520,"y":-1097,"width":158,"height":50},
 		{"type":"text","text":"net logons","id":"b210bede78288b97","x":-3313,"y":-1097,"width":153,"height":53,"color":"4"},
-		{"type":"text","text":"Stea","id":"8db3ec5b6be050a9","x":-3520,"y":-900,"width":158,"height":29}
+		{"type":"text","text":"Concept","id":"caf3b9aee8c1dcd2","x":-3540,"y":-1854,"width":148,"height":52},
+		{"type":"text","text":"Beacon Command","id":"876c33479f9d697a","x":-3540,"y":-1774,"width":197,"height":67,"color":"4"},
+		{"type":"text","text":"Intel","id":"975c38668d7a262a","x":-3540,"y":-1674,"width":140,"height":50,"color":"3"},
+		{"type":"text","text":"Check For Creds","id":"44d5fd5e0d2eab26","x":-3511,"y":-1000,"width":149,"height":60},
+		{"type":"text","text":"DPAPI","id":"cd65d0e1b512000b","x":-1740,"y":-1000,"width":111,"height":60}
 	],
 	"edges":[
 		{"id":"74941f0d86314764","fromNode":"705109fcf12ab029","fromSide":"right","toNode":"88ec07404f5cb5d1","toSide":"left"},
@@ -24,6 +25,7 @@
 		{"id":"ba7e4b444f8f4012","fromNode":"88ec07404f5cb5d1","fromSide":"right","toNode":"f399c9f189068360","toSide":"left"},
 		{"id":"29fc7da5e61827e1","fromNode":"a08eda9d6d6dd86e","fromSide":"right","toNode":"f38f913741350791","toSide":"left"},
 		{"id":"a386e91b51932dc1","fromNode":"09e5173156aaa43f","fromSide":"right","toNode":"b210bede78288b97","toSide":"left"},
-		{"id":"f44907120e1e829b","fromNode":"b210bede78288b97","fromSide":"right","toNode":"deecce3267a97d52","toSide":"left"}
+		{"id":"f44907120e1e829b","fromNode":"b210bede78288b97","fromSide":"right","toNode":"deecce3267a97d52","toSide":"left"},
+		{"id":"813c172fb4b6560f","fromNode":"44d5fd5e0d2eab26","fromSide":"right","toNode":"cd65d0e1b512000b","toSide":"left"}
 	]
 }

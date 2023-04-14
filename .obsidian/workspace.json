@@ -30,9 +30,9 @@
               "state": {
                 "file": "Untitled.canvas",
                 "viewState": {
-                  "x": -2914.8276043062892,
-                  "y": -1027.9099209030771,
-                  "zoom": -0.6666666666666663
+                  "x": -3108.328511495806,
+                  "y": -737.1427210660598,
+                  "zoom": 0
                 }
               }
             }
@@ -166,7 +166,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "8bad5ba0f2e5a24c",
+  "active": "b88623243fe9ad7b",
   "lastOpenFiles": [
     "TODO.md",
     "Untitled.canvas",
