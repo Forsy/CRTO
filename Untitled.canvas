@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"f101c246e90bd599","x":-800,"y":-640,"width":700,"height":600,"type":"group","label":"Initial Compromise"},
+		{"type":"group","id":"d70ce65a26b34593","x":-520,"y":-340,"width":320,"height":90,"label":"Host Recon"},
+		{"id":"64a00f11a23f3a51","x":-779,"y":-620,"width":190,"height":60,"type":"text","text":"[Password Spray)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/36880122-password-spraying)"},
+		{"type":"text","text":"[Password Spray)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/36880122-password-spraying)","id":"51dccb6c00b905ac","x":-779,"y":-540,"width":190,"height":60},
+		{"type":"text","text":"[Password Spray)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/36880122-password-spraying)","id":"37699c8e46d15758","x":-779,"y":-460,"width":190,"height":60}
+	],
+	"edges":[]
+}

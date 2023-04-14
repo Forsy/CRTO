@@ -8,137 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f88147056f834658",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98d2de66fc622602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Initial Compromise/Attacking OWA Exchange Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e97c632e557e96ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host Privesc/Unquoted Service Path.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ba2e0861c1a383c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host Privesc/Weak Permissions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3eaefb2b65262dbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Host Privesc/UAC Bypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3b40bd6eaa6b07a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Persistance/Persistance as Privileged.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d2c762973eeacd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Persistance/Persistance as Privileged.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46ed9c49a2110a75",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20230324090920.png"
-              }
-            }
-          },
-          {
-            "id": "504777839e27ffe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Persistance/Persistance as Privileged.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93088d26e756b187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lateral Movement/Lateral Movement.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "270238962743489a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -186,
+                  "zoom": 0
+                }
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ntlm relaying Voltereta.md"
+                "file": "Untitled.canvas"
               }
             }
           },
@@ -225,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -269,19 +153,20 @@
   "active": "270238962743489a",
   "lastOpenFiles": [
     "Lateral Movement/Lateral Movement.md",
+    "Persistance/Persistance as Privileged.md",
+    "Images/Pasted image 20230324090920.png",
+    "Host Privesc/UAC Bypass.md",
+    "Host Privesc/Weak Permissions.md",
+    "Host Privesc/Unquoted Service Path.md",
+    "Initial Compromise/Attacking OWA Exchange Server.md",
+    "Untitled.canvas",
     "Ntlm relaying Voltereta.md",
     "Images/Pasted image 20230330114217.png",
-    "Persistance/Persistance as Privileged.md",
     "Lateral Movement",
     "User Impersonation/Pass the Ticket.md",
     "User Impersonation",
-    "Images/Pasted image 20230324090920.png",
     "Cheatsheet.md",
     "Credential Theft/Credential Theft.md",
-    "Initial Compromise/Attacking OWA Exchange Server.md",
-    "Host Privesc/Weak Permissions.md",
-    "Host Privesc/Unquoted Service Path.md",
-    "Host Privesc/UAC Bypass.md",
     "Credential Theft",
     "Persistance",
     "Host Privesc",
