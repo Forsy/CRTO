@@ -4,41 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "50e4e68e1af97987",
+        "id": "ab1f27df5b190145",
         "type": "tabs",
         "children": [
           {
-            "id": "270238962743489a",
+            "id": "738ddc5e6edddecc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -186,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "8bad5ba0f2e5a24c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": -3108.328511495806,
-                  "y": -1109.14272106606,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -125,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +139,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "8bad5ba0f2e5a24c",
+  "active": "738ddc5e6edddecc",
   "lastOpenFiles": [
-    "TODO.md",
     "Untitled.canvas",
+    "TODO.md",
     "Lateral Movement/Lateral Movement.md",
     "Persistance/Persistance as Privileged.md",
     "Images/Pasted image 20230324090920.png",
