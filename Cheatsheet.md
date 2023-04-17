@@ -26,3 +26,38 @@ Convert SID
 ```
 powershell ConvertFrom-SID
 ```
+
+
+## Recon
+
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/38125201-powerview)
+
+### Get-DomainUser
+Get users and propierties
+```
+powershell Get-DomainUser -Properties DisplayName, MemberOf | fl
+```
+
+
+### Get-DomainComputer
+Get computers
+
+```
+powershell Get-DomainComputer -Properties DnsHostName | sort -Property DnsHostName
+```
+
+### Get-DomainGroup
+
+Return all domain groups or specific domain group objects.
+
+```
+powershell Get-DomainGroup | where Name -like "*Admins*" | select SamAccountName
+```
+
+### Get-DomainGPOUserLocalGroupMapping
+
+Enumerate the machines where a specific domain user/group is a member of a specific local group
+
+```
+powershell Get-DomainGPOUserLocalGroupMapping -LocalGroup Administrators | select ObjectName, GPODisplayName, ContainerName, ComputerName | fl
+```
