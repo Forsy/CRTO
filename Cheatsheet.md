@@ -15,3 +15,14 @@ execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe createnetonly /pr
 setal_token xxx
 
 ```
+
+Import Powerview
+
+```
+powershell-import C:\Tools\PowerSploit\Recon\PowerView.ps1
+```
+
+Convert SID
+```
+powershell ConvertFrom-SID
+```
