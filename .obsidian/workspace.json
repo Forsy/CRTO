@@ -149,8 +149,10 @@
   },
   "active": "738ddc5e6edddecc",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Ntlm relaying Voltereta.md",
+    "Cobalt Strike 101.md",
     "Cheatsheet.md",
+    "Untitled.md",
     "TODO.md",
     "Untitled.canvas",
     "README.md",
@@ -161,7 +163,6 @@
     "Host Privesc/Weak Permissions.md",
     "Host Privesc/Unquoted Service Path.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
-    "Ntlm relaying Voltereta.md",
     "Images/Pasted image 20230330114217.png",
     "Lateral Movement",
     "User Impersonation/Pass the Ticket.md",
@@ -170,7 +171,6 @@
     "Credential Theft",
     "Persistance",
     "Host Privesc",
-    "Cobalt Strike 101.md",
     "Images",
     "Initial Compromise"
   ]
