@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet.md"
+                "file": "Setup.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,12 +148,12 @@
   },
   "active": "738ddc5e6edddecc",
   "lastOpenFiles": [
-    "Ntlm relaying Voltereta.md",
-    "Cobalt Strike 101.md",
-    "Cheatsheet.md",
-    "Untitled.md",
-    "TODO.md",
     "Untitled.canvas",
+    "Setup.md",
+    "TODO.md",
+    "Cheatsheet.md",
+    "Cobalt Strike 101.md",
+    "Ntlm relaying Voltereta.md",
     "README.md",
     "Lateral Movement/Lateral Movement.md",
     "Persistance/Persistance as Privileged.md",
