@@ -25,6 +25,9 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload;sudo systemctl enable teamserver.service;sudo systemctl start teamserver.service;sudo systemctl status teamserver.service
 ```
 
+# Create Listeners
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/37750093-listener-management)
+
 
 
 # AV Evasion
