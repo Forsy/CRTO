@@ -24,3 +24,13 @@ WantedBy=multi-user.target
 ```
 sudo systemctl daemon-reload;sudo systemctl enable teamserver.service;sudo systemctl start teamserver.service;sudo systemctl status teamserver.service
 ```
+
+# AV Evasion
+
+WSL
+```
+cd /mnt/c/Tools/cobaltstrike/arsenal-kit/kits/artifact
+
+./build.sh pipe VirtualAlloc 277492 5 false false /mnt/c/Tools/cobaltstrike/artifacts
+
+```
