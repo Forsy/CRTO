@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Host Privesc/Unquoted Service Path.md",
+                "file": "Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Host Privesc/Unquoted Service Path.md"
+                "file": "Setup.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Host Privesc/Unquoted Service Path.md",
+                "file": "Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Host Privesc/Unquoted Service Path.md",
+                "file": "Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,10 +148,11 @@
   },
   "active": "738ddc5e6edddecc",
   "lastOpenFiles": [
+    "Cheatsheet.md",
+    "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/UAC Bypass.md",
     "Setup.md",
     "Pasted image 20230502111752.png",
-    "Cheatsheet.md",
     "Untitled.canvas",
     "TODO.md",
     "Cobalt Strike 101.md",
@@ -161,7 +162,6 @@
     "Persistance/Persistance as Privileged.md",
     "Images/Pasted image 20230324090920.png",
     "Host Privesc/Weak Permissions.md",
-    "Host Privesc/Unquoted Service Path.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
     "Images/Pasted image 20230330114217.png",
     "Lateral Movement",
