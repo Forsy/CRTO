@@ -87,4 +87,8 @@ sudo systemctl restart teamserver.service;sudo systemctl status teamserver.servi
 
 
 
+mimi
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/41815529-mimikatz-kit)
 
+Create Dcom jumper
+[Red Team Ops - Zero-Point Security (zeropointsecurity.co.uk)](https://training.zeropointsecurity.co.uk/courses/take/red-team-ops/texts/39198081-jump-remote-exec)
