@@ -69,7 +69,20 @@ WSL
 
 ```
 vim c2-profiles/normal/webbug.profile
+```
+
+```
+post-ex {
+        set amsi_disable "true";
+}
+```
+
+```
 ./c2lint c2-profiles/normal/webbug.profile
+```
+
+```
+sudo systemctl restart teamserver.service;sudo systemctl status teamserver.service
 ```
 
 
