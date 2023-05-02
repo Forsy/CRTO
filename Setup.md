@@ -64,3 +64,14 @@ C:\Tools\ThreatCheck\ThreatCheck\bin\Debug\ThreatCheck.exe -f C:\Payloads\smb_x6
 ``` Powershell
 C:\Tools\ThreatCheck\ThreatCheck\bin\Debug\ThreatCheck.exe -f C:\Payloads\http_x64.ps1 -e AMSI
 ```
+
+WSL
+
+```
+vim c2-profiles/normal/webbug.profile
+./c2lint c2-profiles/normal/webbug.profile
+```
+
+
+
+
