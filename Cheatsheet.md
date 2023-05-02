@@ -2,7 +2,10 @@
 spawnto x64 %windir%\sysnative\dllhost.exe
 ```
 
-
+```
+ak-settings spawnto_x64 C:\Windows\System32\dllhost.exe
+ak-settings spawnto_x86 C:\Windows\SysWOW64\dllhost.exe
+```
 List listening bindings
 ```
 run netstat -anp tcp
