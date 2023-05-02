@@ -1,4 +1,6 @@
-
+```
+spawnto x64 %windir%\sysnative\dllhost.exe
+```
 
 
 List listening bindings

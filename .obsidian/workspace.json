@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup.md",
+                "file": "Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup.md"
+                "file": "Cheatsheet.md"
               }
             }
           },
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup.md",
+                "file": "Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup.md",
+                "file": "Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,8 +148,8 @@
   },
   "active": "738ddc5e6edddecc",
   "lastOpenFiles": [
-    "Cheatsheet.md",
     "Setup.md",
+    "Cheatsheet.md",
     "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/UAC Bypass.md",
     "Pasted image 20230502111752.png",
