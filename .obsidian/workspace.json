@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
+                "file": "Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "fde29c279e736fc0",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ntlm relaying Voltereta.md"
+                "file": "Cheatsheet.md"
               }
             }
           },
@@ -125,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
+                "file": "Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ntlm relaying Voltereta.md",
+                "file": "Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,22 +154,22 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "fde29c279e736fc0",
+  "active": "393b39b7abd8dc24",
   "lastOpenFiles": [
-    "Cheatsheet.md",
     "Cobalt Strike 101.md",
-    "SMB Persistance.md",
-    "Setup.md",
-    "README.md",
     "Ntlm relaying Voltereta.md",
+    "README.md",
+    "Setup.md",
+    "TODO.md",
+    "Untitled.canvas",
+    "Cheatsheet.md",
+    "SMB Persistance.md",
     "User Impersonation/Pass the Ticket.md",
     "Lateral Movement/Lateral Movement.md",
     "Untitled",
     "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/UAC Bypass.md",
     "Pasted image 20230502111752.png",
-    "Untitled.canvas",
-    "TODO.md",
     "Persistance/Persistance as Privileged.md",
     "Images/Pasted image 20230324090920.png",
     "Host Privesc/Weak Permissions.md",
