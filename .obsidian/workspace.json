@@ -8,18 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "738ddc5e6edddecc",
+            "id": "393b39b7abd8dc24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Ntlm relaying Voltereta.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "fde29c279e736fc0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,6 +75,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "597ae5bdf7847089",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -96,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet.md"
+                "file": "Ntlm relaying Voltereta.md"
               }
             }
           },
@@ -106,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Ntlm relaying Voltereta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Ntlm relaying Voltereta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,26 +165,28 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "738ddc5e6edddecc",
+  "active": "fde29c279e736fc0",
   "lastOpenFiles": [
-    "Cobalt Strike 101.md",
     "Cheatsheet.md",
+    "Cobalt Strike 101.md",
+    "SMB Persistance.md",
     "Setup.md",
     "README.md",
     "Ntlm relaying Voltereta.md",
+    "User Impersonation/Pass the Ticket.md",
+    "Lateral Movement/Lateral Movement.md",
+    "Untitled",
     "Host Privesc/Unquoted Service Path.md",
     "Host Privesc/UAC Bypass.md",
     "Pasted image 20230502111752.png",
     "Untitled.canvas",
     "TODO.md",
-    "Lateral Movement/Lateral Movement.md",
     "Persistance/Persistance as Privileged.md",
     "Images/Pasted image 20230324090920.png",
     "Host Privesc/Weak Permissions.md",
     "Initial Compromise/Attacking OWA Exchange Server.md",
     "Images/Pasted image 20230330114217.png",
     "Lateral Movement",
-    "User Impersonation/Pass the Ticket.md",
     "User Impersonation",
     "Credential Theft/Credential Theft.md",
     "Credential Theft",
