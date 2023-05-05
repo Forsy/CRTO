@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c63cb5a900d8276f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Panic note.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet.md"
+                "file": "Panic note.md"
               }
             }
           },
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Panic note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Panic note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,15 +167,16 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "393b39b7abd8dc24",
+  "active": "c63cb5a900d8276f",
   "lastOpenFiles": [
-    "Ntlm relaying Voltereta.md",
-    "Cheatsheet.md",
-    "Cobalt Strike 101.md",
     "README.md",
-    "Setup.md",
+    "Panic note.md",
     "TODO.md",
     "Untitled.canvas",
+    "Setup.md",
+    "Cheatsheet.md",
+    "Ntlm relaying Voltereta.md",
+    "Cobalt Strike 101.md",
     "SMB Persistance.md",
     "User Impersonation/Pass the Ticket.md",
     "Lateral Movement/Lateral Movement.md",
