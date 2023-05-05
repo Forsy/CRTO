@@ -10,3 +10,8 @@ check uncosntrained
 check constrained
 if cifs ticket does not work try alt service name ldap and dcsync if admin
 check Resource-Based Constrained Delegation
+check  Shadow Credentials
+check certificates if kdd_error_padata.. restart dc if possible
+check gpo
+sql check impersonation and acces
+
