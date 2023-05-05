@@ -15,6 +15,5 @@ check certificates if kdd_error_padata.. restart dc if possible
 check gpo
 sql check impersonation and acces
 
-1.  Oddly enough I was getting caught by AMSI as well. If you wanna just bypass AMSI to get ur payload running on the box you can use the following cradle (editado)
-    ![Imagen](https://media.discordapp.net/attachments/866727478062743572/1102694221544181770/image.png?width=550&height=34)
-    /bypass == file hosted on teamserver containing AMSI bypass
+If using amsibypass payload remember to change the embeded download if using porxy/reverse portfwd
+
