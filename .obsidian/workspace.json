@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Panic note.md",
+                "file": "Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Panic note.md"
+                "file": "Setup.md"
               }
             }
           },
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Panic note.md",
+                "file": "Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Panic note.md",
+                "file": "Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,10 +169,10 @@
   },
   "active": "c63cb5a900d8276f",
   "lastOpenFiles": [
+    "Panic note.md",
     "Setup.md",
     "Cheatsheet.md",
     "Cobalt Strike 101.md",
-    "Panic note.md",
     "README.md",
     "TODO.md",
     "Untitled.canvas",
