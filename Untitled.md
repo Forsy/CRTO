@@ -38,3 +38,10 @@ db.kato.org
 	 * SHA1     : afb186767e473eb2f79c545a42f7d11b852861ab
 	 * DPAPI    : 1aed5b7c0c62afef065f20af6621aa2d
 ```
+
+
+admin rc4 
+8a87b9e4bac0ad12010eb8888e771ff9
+
+trusted
+4515f05a4d913e2bf91575b29aede84e
