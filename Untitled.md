@@ -8,3 +8,8 @@ wkstn.acme.corp
 pcotton sysadmins
 
 sysadmins ->
+
+
+privesc
+ntlm cotton
+dpapi
