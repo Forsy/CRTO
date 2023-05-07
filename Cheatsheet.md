@@ -1,5 +1,5 @@
 ```
-spawnto x64 %windir%\sysnative\dllhost.exe
+spawnto x64 %windir%\sysnative\BingMaps.dll
 ```
 
 ```

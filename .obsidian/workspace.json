@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cheatsheet.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Cheatsheet.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +181,10 @@
   },
   "active": "9399c5f5140fabc6",
   "lastOpenFiles": [
-    "TODO.md",
-    "Untitled.md",
-    "Cheatsheet.md",
     "Setup.md",
+    "Untitled.md",
+    "TODO.md",
+    "Cheatsheet.md",
     "Panic note.md",
     "Cobalt Strike 101.md",
     "README.md",
