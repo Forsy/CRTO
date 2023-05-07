@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheet.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheatsheet.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,11 +181,11 @@
   },
   "active": "9399c5f5140fabc6",
   "lastOpenFiles": [
+    "Cheatsheet.md",
+    "Untitled.md",
     "TODO.md",
     "Setup.md",
     "README.md",
-    "Untitled.md",
-    "Cheatsheet.md",
     "Ntlm relaying Voltereta.md",
     "Panic note.md",
     "Credential Theft/Credential Theft.md",

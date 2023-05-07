@@ -25,6 +25,14 @@ ntlm cotton
 dpapi
 
 
+
+----------- 
+ad.kato.org 
+jmp.kato.org
+db.kato.org 
+
+
+
 ```
  * NTLM     : cafd6970609208fed259fc5c89b8acac
 	 * SHA1     : afb186767e473eb2f79c545a42f7d11b852861ab
