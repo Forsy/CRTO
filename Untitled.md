@@ -14,7 +14,7 @@ Sysadmins
 
 
 
-
+admin rc4 c2e0703b377aa3be5ad07a1319241d5a
 pcotton sysadmins
 
 sysadmins -> wkstn.acme.corp
