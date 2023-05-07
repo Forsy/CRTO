@@ -1,5 +1,6 @@
 ```
 spawnto x64 %windir%\sysnative\dllhost.exe
+spawnto x86 %windir%\syswow64\dllhost.exe
 ```
 
 ```
