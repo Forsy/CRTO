@@ -4,10 +4,20 @@ dc.acme.corp
 web.acme.corp  
 wkstn.acme.corp
 
+Schema Admins        
+Enterprise Admins    
+Domain Admins        
+Key Admins           
+Enterprise Key Admins
+DnsAdmins            
+Sysadmins            
+
+
+
 
 pcotton sysadmins
 
-sysadmins ->
+sysadmins -> wkstn.acme.corp
 
 
 privesc
