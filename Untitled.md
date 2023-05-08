@@ -48,3 +48,22 @@ trusted
 
 paw.kato.esae
 rdc.kato.esae
+
+
+```
+SourceName      : kato.org
+TargetName      : acme.corp
+TrustType       : WINDOWS_ACTIVE_DIRECTORY
+TrustAttributes : FOREST_TRANSITIVE
+TrustDirection  : Outbound
+WhenCreated     : 10/6/2022 12:17:32 PM
+WhenChanged     : 5/7/2023 8:17:27 AM
+
+SourceName      : kato.org
+TargetName      : kato.esae
+TrustType       : WINDOWS_ACTIVE_DIRECTORY
+TrustAttributes : FILTER_SIDS
+TrustDirection  : Outbound
+WhenCreated     : 10/6/2022 2:01:03 PM
+WhenChanged     : 5/7/2023 8:17:28 AM
+```

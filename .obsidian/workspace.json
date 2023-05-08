@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Panic note.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Panic note.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Panic note.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Panic note.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,13 +181,13 @@
   },
   "active": "9399c5f5140fabc6",
   "lastOpenFiles": [
-    "Untitled.md",
     "Cheatsheet.md",
+    "Untitled.md",
     "TODO.md",
     "Setup.md",
     "README.md",
-    "Ntlm relaying Voltereta.md",
     "Panic note.md",
+    "Ntlm relaying Voltereta.md",
     "Credential Theft/Credential Theft.md",
     "Cobalt Strike 101.md",
     "Untitled.canvas",
