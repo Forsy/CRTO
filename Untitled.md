@@ -68,3 +68,13 @@ TrustDirection  : Outbound
 WhenCreated     : 10/6/2022 2:01:03 PM
 WhenChanged     : 5/7/2023 8:17:28 AM
 ```
+
+```
+[*] TOTAL NUMBER OF SEARCH RESULTS: 5
+	[+] cn : Administrator
+	[+] cn : Guest
+	[+] cn : krbtgt
+	[+] cn : KATO$
+	[+] cn : Vikki Page
+
+```
