@@ -47,7 +47,8 @@ trusted
 4515f05a4d913e2bf91575b29aede84e
 
 paw.kato.esae
-rdc.kato.esae
+rdc.kato.esae 10.10.150.10
+
 
 
 ```
